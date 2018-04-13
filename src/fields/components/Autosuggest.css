@@ -1,0 +1,27 @@
+.Autosuggest {
+  position: relative;
+}
+
+.Autosuggest .datalistSuggest {
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  box-sizing: border-box;
+  display: none;
+  border: 1px solid #d9d9d9;
+  border-top: none;
+  z-index: 1;
+}
+.Autosuggest .datalistSuggest.showDatalist {
+  display: block;
+}
+.Autosuggest .datalistSuggest .optionSuggest {
+  padding: 8px 16px;
+  cursor: pointer;
+  z-index: 2;
+  transition: 0.35s ease-out;
+}
+.Autosuggest .datalistSuggest .optionSuggest:hover {
+  background: #00cefa;
+  color: #fff;
+}

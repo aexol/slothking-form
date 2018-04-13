@@ -1,0 +1,21 @@
+.Checkbox {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.Checkbox .border {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dfdfdf;
+}
+.Checkbox .tick {
+  width: 16px;
+  height: 16px;
+  background-color: #cecece;
+}
+.Checkbox .tick.checked {
+  background-color: #333;
+}
